@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2018 Summer Event</title>
+    <script src="script/formcheck.js"></script>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Limelight" rel="stylesheet">
+  </head>
+  <!-- END Head -->
+
+  <!-- START Body section -->
+  <body>
+    <!-- START Header -->
+    <!-- <section id="changeBG" class="original"> -->
+    <header>
+      <h1>HOT SUMMER COOL VACATION!</h1>
+      <h3>Fill the Form and Get the Free Flight Ticket!</h3>
+    </header>
+
+    <main>
+      <!-- START Contact Info Form -->
+      <form id="eventForm">
+        <fieldset>
+          <legend>Contact information</legend>
+          <ul>
+            <!-- Name -->
+            <li>
+              <label for="name" class="labelQuestion">Name</label>
+                <input id="first_name" type="text" maxlenth=15/ placeholder="First Name"/>
+                <input id="last_name" type="text" maxlenth=10/ placeholder="Last Name"/>
+            </li>
+            <!-- Gender -->
+            <li>
+              <label for="gender" class="labelQuestion" id="gender">Gender</label>
+              <input type="radio" name="gender" value="female"/><label for="gender" class="labelAnswer">Female</label>
+              <input type="radio" name="gender" value="male"/><label for="gender" class="labelAnswer">Male</label>
+            </li>
+            <!-- Date/Birth -->
+            <li>
+              <label for="birthday" class="labelQuestion">Birthday</label>
+              <select name="month">
+                <option value="" selected>Select Month</option>
+                <option value="jan">January</option>
+                <option value="feb">February</option>
+                <option value="mar">March</option>
+                <option value="apr">April</option>
+                <option value="may">May</option>
+                <option value="jun">June</option>
+                <option value="jul">July</option>
+                <option value="aug">August</option>
+                <option value="sep">September</option>
+                <option value="oct">October</option>
+                <option value="nov">November</option>
+                <option value="dec">December</option>
+              </select>
+              <input class="birthBox" type="text" name="date" id="date" placeholder="Date"/>
+              <input class="birthBox" type="text" name="year" id="year" placeholder="Year"/>
+            </li>
+            <!-- Phone Number -->
+            <li>
+              <label for="phonenumber" class="labelQuestion">Phone</label>
+              <input type="text" id="phonenumber" class="phonenumber" name="phonenumber" value="" placeholder="XXX-XXX-XXXX, Do you have Lucky Numbers?"/>
+            </li>
+            <!-- Email -->
+            <li>
+              <label for="email" class="labelQuestion">E-mail</label>
+              <input type="email" id="emailAddress" class="emailBox" name="email" value="" placeholder="ex) sample@gmail.com"/>
+            </li>
+          </ul>
+        </fieldset>
+        <!-- END Contact Info  -->
+
+        <!-- START Vacation Question  -->
+        <fieldset>
+          <legend>Your Vacation</legend>
+            <ul>
+              <!-- When -->
+              <li>
+                <label for="when" class="labelQuestion">When</label>
+                <input type="radio" name="when" value="july"/><label for="july" class="labelAnswer">July</label>
+                <input type="radio" name="when" value="august"/><label for="august" class="labelAnswer">August</label>
+                <input type="radio" name="when" value="september"/><label for="september" class="labelAnswer">September</label>
+              </li>
+              <li><!-- Where -->
+                <!-- if you Click it, you can listen to the Music -->
+                <label for="where" class="labelQuestion">Where</label>
+                <a data-sound="Korea" class="sound">
+                  <input type="radio" name="where" id="korea" value="korea" onClick="changeBackground(this.value);"/><label for="korea" class="labelAnswer">Korea</label>
+                </a>
+                <a data-sound="Mexico" class="sound">
+                  <input type="radio" name="where" id="mexico" value="mexico" onClick="changeBackground(this.value);"/><label for="mexico" class="labelAnswer">Mexico</label>
+                </a>
+                <a data-sound="USA" class="sound">
+                  <input type="radio" name="where" id="usa" value="usa" onClick="changeBackground(this.value);"/><label for="usa" class="labelAnswer">U.S.A</label>
+                </a>
+                <p id="message"></p>
+              </li>
+              <!-- With Who -->
+              <li>
+                <label for="who" class="labelQuestion">With</label>
+                <select name="who">
+                  <option value="" selected>Who</option>
+                  <option value="family">Family</option>
+                  <option value="friends">Friends</option>
+                  <option value="lover">Lover</option>
+                  <option value="alone">Alone</option>
+                </select>
+                <input id="withName" class="withName" type="text" name="withName" placeholder="His/Her Name"/>
+              </li>
+              <!-- Why -->
+              <li>
+                <label for="why" class="labelQuestion">Why?</label>
+                <textarea name="" id="reason" col=30 placeholder="Please, Write the reason"></textarea>
+              </li>
+            </ul>
+          </fieldset>
+          <!-- END Vacation Question -->
+          <!-- START Submit button -->
+          <span class="yesSection">
+            <h3>Do you want a cool summer vacation?</h3>
+            <button class="yesButton" type="submit" value="">YES!</button>
+          </span>
+          <!-- END Submit button -->
+          <section id="errors"></section>
+        </form>
+      </main>
+    <!-- END Main section -->
+
+    <!-- Footer -->
+    <footer>
+      <img src="img/MarriottLogo.png"/>
+      <p>Marriot Hotel © 2018</p>
+    </footer>
+  <!-- </section> -->
+
+    <!--Audio Sources-->
+    <audio data-sound="Korea" src="sound/Gangnamstyle.wav"></audio>
+    <audio data-sound="Mexico" src="sound/Despasito.wav"></audio>
+    <audio data-sound="USA" src="sound/NewyorkMusic.wav"></audio>
+
+    <!-- START JS -->
+    <script src="JS/Form_JS.js"></script>
+    <script>formChecker.initForm(document.querySelector("#eventForm"));</script>
+    <!-- END JS -->
+  </body>
+</html>
