@@ -121,6 +121,9 @@ header nav .logo {
         padding-top: 2rem;
         font-weight: 700;
     }
+    .half-image .image-gif {
+        width: 100%;
+        height: 50%;
+    }
 
 }
-
