@@ -64,7 +64,7 @@ header nav .logo {
     flex-direction: row;
     width: 100%;
 }
-.work-images .half-image img {
+.work-images .half-image {
     width: 50%;
     height: 50%;
 }
