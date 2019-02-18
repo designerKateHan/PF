@@ -1,0 +1,134 @@
+@import "reset.css";
+@import "style.css";
+
+.flex-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-section {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+.h2-div {
+  display: block;
+  padding: 70px;
+  padding-bottom: 100px;
+}
+.detail-about {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+h2 { 
+  display: block; 
+  line-height: 3rem;
+  font-size: 2rem; 
+  margin: 0 auto; 
+  text-align: center; 
+}
+
+em {
+  font-weight: 700;
+}
+size {
+  font-size: 1.6rem;
+  line-height: 1.5rem;
+}
+
+.detail-about p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  text-align: center;
+}
+span {
+  font-weight: 700;
+  color: #eb2a2e;
+}
+
+.resume {
+  padding: 80px;
+  padding-bottom: 0;
+  margin: 0 auto;
+}
+
+
+:root {
+  --mainColor: #3989c6;
+}
+.resume a {
+  text-decoration: none;
+  color: #333;
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: #333;
+  text-decoration: none;
+  transition: background-size .2s;
+} 
+.resume a:hover {
+  background-size: 4px 50px;
+  color: #fff;
+}
+
+
+footer {
+  left:0px;
+  bottom:0px;
+  width:100%;
+}
+
+
+
+
+
+
+/* ============ Mobile size ============ */
+
+@media only screen and (max-width: 700px) {
+  .about-section {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  .h2-div {
+    padding: 40px;
+    padding-bottom: 80px;
+  }
+  h2 { 
+    line-height: 2.4rem;
+    font-size: 1.5rem; 
+  }
+  size {
+    font-size: 1.3rem;
+  }
+  .detail-about {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+  .detail-about p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    text-align: left;
+  }
+  span {
+    font-weight: 700;
+    color: #eb2a2e;
+  }
+
+}
