@@ -1,25 +1,9 @@
 @import "reset.css";
 @import "style.css";
 
-.ball {
-    position: absolute;
-    border-radius: 100%;
-    opacity: 0.7;
-  }
-
-/* Header - nav */
 header {
-    height: 180px;
-    margin-top: 30px;
+    padding-bottom: 70px;
 }
-header nav .logo {
-    padding-top: 10px;
-}
-.main-nav li a {
-    margin-top: 20px;
-    margin-left: 40px;
-}
-
 /*======= main =======*/
 .main-inner-wrapper {
     display: flex;
@@ -32,7 +16,7 @@ header nav .logo {
 
 /* Explain  */
 .title-section {
-    padding-bottom: 3rem;
+    margin-bottom: 80px;
 }
 .work-title h2 {
     font-weight: 700;
