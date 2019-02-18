@@ -40,13 +40,16 @@ header nav .logo {
     padding-bottom: 2rem;
 }
 .explain {
-    width: 70%;
+    width: 60%;
 }
 .explain .role {
     padding-top: 2rem;
     font-weight: 700;
 }
-
+.date {
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+}
 /* images */
 .work-images {
     width: 100%;
@@ -59,15 +62,18 @@ header nav .logo {
     width: 100%;
     height: auto;
 }
-.work-images .half-image {
+.half-image {
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: auto;
 }
-.work-images .half-image {
+.half-image img {
     width: 50%;
     height: 50%;
 }
+
+
 /* Youtube */
 .embed-youtube {
     position: relative;
@@ -121,9 +127,10 @@ header nav .logo {
         padding-top: 2rem;
         font-weight: 700;
     }
-    .half-image .image-gif {
+    .image-gif {
         width: 100%;
         height: 50%;
     }
 
 }
+
