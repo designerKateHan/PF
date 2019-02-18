@@ -1,6 +1,8 @@
 @import "reset.css";
 
-body{
+body {
+    width: 100%;
+    height: auto;
     font-family: 'Assistant', sans-serif;
     font-size: 1rem;
     line-height: 1.4em;
@@ -13,17 +15,16 @@ body{
 }
 
 /* Header - nav */
-
 header {
     width: 100%;
-    height: 400px;
+    margin: 0 auto;
+    height: 80px;
     margin-top: 20px;
 }
 .navbar {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0;
-    height: 70px;
     text-align: center;
 }
 header nav .logo {
@@ -40,24 +41,38 @@ header nav .logo {
 .main-nav li a {
     color: #333;
     padding-bottom: 5px;
-    margin-top: 20px;
-    margin-left: 40px;
+    padding-top: 20px;
+    padding-left: 40px;
     text-decoration: none;
 }
 .main-nav li a:hover {
     color: #eb2a2e;
   }
-header h1 {
-    display: block;
+
+/* Main Landing */
+.main-landing {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+canvas {
+    width: 100%;
+    height: 800px;
+}
+h1 {
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%, -50%);                                                                   
+    font-size: 2rem;
+    z-index: 2;
     text-align: center;
-    padding-top: 120px;
-    font-size: 1.5rem;
-    margin: 0;
 }
 :root {
     --mainColor: #eb2a2e;
   }
-header h1 a {
+h1 a {
     background:
        linear-gradient(
          to bottom, var(--mainColor) 0%,
@@ -70,7 +85,7 @@ header h1 a {
     text-decoration: none;
     transition: background-size .2s;
 } 
-header h1 a:hover {
+h1 a:hover {
     background-size: 4px 50px;
     color: #fff;
 }
@@ -203,8 +218,7 @@ header h1 a:hover {
 /* ====== Footer ======= */  
 footer {
     width: 100%;
-    height: 130px;
-    padding: 20px;
+    height: 180px;
 }
 .footer-section{
     display: flex;
@@ -218,16 +232,13 @@ footer {
 }
 
 /* ====== Scial icons ======= */
-footer {
-    width: 100%;
-}
 .icon-section {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    padding: 20px 40px;
+    padding: 40px 40px 20px 40px;
 }
 .icon-section li {
     align-items: center;
@@ -253,10 +264,23 @@ footer {
 /* End icons  */
 
 
-/* ============ Mobile size ============ */
+
 /* ============ Tablet size 1230 ============ */
 
 @media only screen and (max-width: 1230px) {
+    /* Main Landing */
+    canvas {
+        width: 100%;
+        height: 800px;
+    }
+    h1 {
+        display: inline-block;
+        width: 100%;
+        margin: 0 auto;                                                                   
+        font-size: 1.5rem;
+        z-index: 2;
+        text-align: center;                                                              
+    }
     /* Hover effect */
       .frame h2 {
         font-size: 1em;
@@ -278,7 +302,23 @@ footer {
     .container {
         width: 100%;
         height: auto;
-        margin: auto;
+        margin: 0 auto;
+    }
+    /* Main Landing */
+    canvas {
+        display: none;
+    }
+    .main-landing {
+        width: 100%;
+        height: 400px;
+    }
+    h1 {
+        display: inline-block;
+        width: 100%;
+        margin: 0 auto;                                                                   
+        font-size: 1.2rem;
+        z-index: 2;
+        text-align: center;
     }
     .logo img {
         margin-left: 30px;
@@ -320,5 +360,6 @@ footer {
     }
     .frame figcaption:hover {
         padding-top: 37%;
-    }  
+    }   
+      
 }
