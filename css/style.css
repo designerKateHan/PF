@@ -218,11 +218,15 @@ footer {
 }
 
 /* ====== Scial icons ======= */
+footer {
+    width: 100%;
+}
 .icon-section {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
     padding: 20px 40px;
 }
 .icon-section li {
