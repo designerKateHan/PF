@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" class="no-js">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kuiae Han</title>
@@ -12,7 +12,7 @@
 
     <body>
         <div class="container">
-            <header class="header flex p2">
+            <header>
                 <nav class="navbar">
                     <a class="logo" href="index.html"><img src="img/logo.svg" alt=""></a>
                     <ul class="main-nav">
@@ -21,8 +21,11 @@
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
-                <h1>Interactive Designer. <a href="#">Kuiae Han.</a></h1>
             </header>
+            <div class="main-landing">
+                <canvas id="myCanvas"></canvas>
+                <h1>Interactive Designer. <a href="about.html">KUIAE HAN.</a></h1>
+            </div>
 
             <!-- Grid section -->
             <div class="grid">
@@ -133,7 +136,7 @@
                         <figcaption>
                                 <h2>10PAGODA New Toeic</h2>
                                 <p>Branding and Advertising</p>
-                                <a href="works-details-7.html"></a>
+                                <a href="works-details-10.html"></a>
                         </figcaption>
                     </div>
                 </div>
@@ -144,7 +147,7 @@
                         <figcaption>
                             <h2>Editorial design</h2>
                             <p>Editorial design</p>
-                            <a href="works-details-8.html"></a>
+                            <a href="works-details-11.html"></a>
                         </figcaption>
                     </div>
                 </div>
@@ -155,7 +158,7 @@
                         <figcaption>
                                 <h2>Print AD</h2>
                                 <p>Branding and Design</p>
-                                <a href="works-details-9.html"></a>
+                                <a href="works-details-12.html"></a>
                         </figcaption>
                     </div>
                 </div>
@@ -164,18 +167,17 @@
         </div>
         <!-- END Container -->
         <!-- Footer -->
-        <footer>
-            <div class="footer-section">
-                <ul class="icon-section">
-                    <li><a href="http://www.linkedin.com/in/idkuiaehan"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li><a href="https://www.instagram.com/id.kuiae/"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="https://www.youtube.com/channel/UChltc_dSKqIW6q329BL3hWQ/videos?view_as=subscriber"><i class="fa fa-play-circle"></i></a></li>
-                </ul>
-                <p>&copy; Copyright by Kuiae Han.</p>
-            </div>
+        <footer class="footer-section">
+            <ul class="icon-section">
+                <li><a href="http://www.linkedin.com/in/idkuiaehan"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.instagram.com/id.kuiae/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UChltc_dSKqIW6q329BL3hWQ/videos?view_as=subscriber"><i class="fa fa-play-circle"></i></a></li>
+            </ul>
+            <p>&copy; Created by Kuiae Han.</p>
         </footer>
         <!-- Top button -->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
+    </div>
+    <script src="js/action.js"></script>
     </body>
 </html>
