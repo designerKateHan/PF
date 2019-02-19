@@ -79,20 +79,12 @@ header {
 
 /* ============ Mobile size ============ */
 
-@media only screen and (max-width: 800px) {
-    .container {
+@media only screen and (max-width: 700px) {
+    .work-section {
         width: 100%;
         height: auto;
-        margin: auto;
+        margin: 0 auto;
     }
-    .logo img {
-        margin-left: 30px;
-        width: 30px;
-    }
-    .main-nav {
-        margin-right: 40px;
-    }
-    
     /*======= main =======*/
     
     .main-inner-wrapper {
@@ -117,3 +109,4 @@ header {
     }
 
 }
+
