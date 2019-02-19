@@ -62,7 +62,6 @@ canvas {
     height: 800px;
 }
 h1 {
-    font-weight: 800;
     position: absolute;
     top:40%;
     left:50%;
@@ -70,6 +69,9 @@ h1 {
     font-size: 2rem;
     z-index: 2;
     text-align: center;
+}
+h1 span {
+    font-weight: 800;
 }
 :root {
     --mainColor: #eb2a2e;
@@ -88,7 +90,6 @@ h1 a {
     transition: background-size .2s;
 } 
 h1 a:hover {
-    font-weight: 800;
     background-size: 4px 50px;
     color: #fff;
 }
@@ -161,6 +162,7 @@ h1 a:hover {
   opacity: 0;
 }
 .frame p {
+  font-weight: 400;
   font-size: 1em;
   letter-spacing: 1px;
   opacity: 0;
