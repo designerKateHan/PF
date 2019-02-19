@@ -1,18 +1,11 @@
 @import "reset.css";
 @import "style.css";
 
-.flex-contents {
+.about-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.about-section {
-  display: block;
   width: 100%;
   height: auto;
-  padding: 20px;
 }
 .h2-div {
   display: block;
@@ -20,12 +13,34 @@
   padding-bottom: 100px;
 }
 .detail-about {
-  width: 70%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  margin: 0 auto;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
+}
+.detail-about .self-photo {
+  width: 25%;
+  height: auto;
+  padding-right: 20px;
+}
+.detail-about .self-photo img {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+}
+.p-section {
+  width: 50%;
+  height: auto;
+}
+.p-section p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  text-align: left;
+}
+span {
+  font-weight: 700;
+  color: #eb2a2e;
 }
 h2 { 
   display: block; 
@@ -42,26 +57,14 @@ size {
   font-size: 1.6rem;
   line-height: 1.5rem;
 }
-
-.detail-about p {
-  font-size: 1.2rem;
-  line-height: 1.8rem;
-  text-align: center;
-}
-span {
-  font-weight: 700;
-  color: #eb2a2e;
-}
-
 .resume {
-  padding: 80px;
-  padding-bottom: 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
   margin: 0 auto;
 }
 
-
 :root {
-  --mainColor: #25303c;
+  --mainColor: #3989c6;
 }
 .resume a {
   text-decoration: none;
@@ -75,7 +78,6 @@ span {
   background-repeat: repeat-x;
   background-size: 4px 4px;
   color: #333;
-  text-decoration: none;
   transition: background-size .2s;
 } 
 .resume a:hover {
@@ -99,7 +101,8 @@ footer {
 
 @media only screen and (max-width: 700px) {
   .about-section {
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: auto;
     padding: 0;
@@ -117,18 +120,45 @@ footer {
   }
   .detail-about {
     width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  .detail-about .self-photo {
+    width: 100%;
     height: auto;
     margin: 0 auto;
-    padding-bottom: 40px;
   }
-  .detail-about p {
+  .detail-about .self-photo img {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+  }
+  .p-section {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+  }
+  .p-section p {
     font-size: 1rem;
-    line-height: 1.6rem;
+    line-height: 1.5rem;
     text-align: left;
   }
   span {
     font-weight: 700;
     color: #eb2a2e;
+  }
+  .resume a {
+    text-decoration: none;
+    background: none;
+    color: #eb2a2e;
+    transition: none;
+  }
+  .resume a:hover {
+    color: #fff;
+    background-color: #eb2a2e;
   }
 
 }
