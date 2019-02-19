@@ -34,11 +34,13 @@
   height: auto;
 }
 .p-section p {
+  font-weight: 300;
   font-size: 1.2rem;
   line-height: 1.8rem;
   text-align: left;
 }
 span {
+  font-weight: 700;
   color: #eb2a2e;
 }
 h2 {
