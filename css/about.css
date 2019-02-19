@@ -42,7 +42,7 @@ span {
   color: #eb2a2e;
 }
 h2 {
-  font-weight: 800;
+  font-weight: 700;
   display: block; 
   line-height: 3rem;
   font-size: 2rem; 
@@ -67,7 +67,7 @@ size {
   --mainColor: #3989c6;
 }
 .resume a {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Barlow', sans-serif;
   text-decoration: none;
   color: #333;
   background:
