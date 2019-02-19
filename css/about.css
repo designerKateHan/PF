@@ -34,18 +34,15 @@
   height: auto;
 }
 .p-section p {
-  font-family: 'Open Sans', sans-serif;
   font-size: 1.2rem;
   line-height: 1.8rem;
   text-align: left;
 }
 span {
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: bold;
   color: #eb2a2e;
 }
 h2 {
-  font-family: 'Titillium Web', sans-serif;
+  font-weight: 800;
   display: block; 
   line-height: 3rem;
   font-size: 2rem; 
