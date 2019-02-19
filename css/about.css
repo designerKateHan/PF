@@ -40,11 +40,10 @@
   text-align: left;
 }
 span {
-  font-weight: 700;
+  font-weight: 800;
   color: #eb2a2e;
 }
 h2 {
-  font-weight: 700;
   display: block; 
   line-height: 3rem;
   font-size: 2rem; 
@@ -53,7 +52,7 @@ h2 {
 }
 
 em {
-  font-weight: bold;
+  font-weight: 800;
 }
 size {
   font-size: 1.6rem;
@@ -90,7 +89,6 @@ size {
 
 
 footer {
-  font-family: 'Open Sans', sans-serif;
   left:0px;
   bottom:0px;
   width:100%;
