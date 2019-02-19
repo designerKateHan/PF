@@ -19,8 +19,7 @@ header {
     margin-bottom: 80px;
 }
 .work-title h2 {
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 1.5rem;
     padding-bottom: 2rem;
 }
@@ -28,8 +27,8 @@ header {
     width: 60%;
 }
 .explain .role {
+    font-weight: 800;
     padding-top: 2rem;
-    font-weight: 700;
 }
 .date {
     font-size: 0.8rem;
