@@ -1,7 +1,7 @@
 @import "reset.css";
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Barlow', sans-serif;
     width: 100%;
     height: auto;
     font-size: 1rem;
@@ -63,7 +63,7 @@ canvas {
     height: 800px;
 }
 h1 {
-    font-family: 'Titillium Web', sans-serif;
+    font-weight: 800;
     position: absolute;
     top:40%;
     left:50%;
@@ -89,7 +89,7 @@ h1 a {
     transition: background-size .2s;
 } 
 h1 a:hover {
-    font-weight: bold;
+    font-weight: 800;
     background-size: 4px 50px;
     color: #fff;
 }
@@ -116,7 +116,6 @@ h1 a:hover {
 /* Hover effect */
 
 .frame {
-  font-family: 'Titillium Web', sans-serif;
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -157,15 +156,13 @@ h1 a:hover {
     z-index: 1;
 }
 .frame h2 {
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: bold;
+  font-weight: 800;
   font-size: 1.7em;
   text-transform: uppercase;
   opacity: 0;
 }
 .frame p {
   font-size: 1em;
-  font-weight: 300;
   letter-spacing: 1px;
   opacity: 0;
 }
@@ -233,7 +230,6 @@ footer {
     align-items: center;
 }
 .footer-section p {
-    font-family: 'Open Sans', sans-serif;
     font-size: 0.7rem;
     padding-bottom: 20px;
 }
