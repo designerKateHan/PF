@@ -3,7 +3,6 @@
 body {
     width: 100%;
     height: auto;
-    font-family: 'Assistant', sans-serif;
     font-size: 1rem;
     line-height: 1.4em;
     color: #333;
@@ -62,6 +61,7 @@ canvas {
     height: 800px;
 }
 h1 {
+    font-family: 'Titillium Web', sans-serif;
     position: absolute;
     top:40%;
     left:50%;
@@ -113,6 +113,7 @@ h1 a:hover {
 /* Hover effect */
 
 .frame {
+  font-family: 'Titillium Web', sans-serif;
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -153,6 +154,7 @@ h1 a:hover {
     z-index: 1;
 }
 .frame h2 {
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
   font-size: 1.7em;
   text-transform: uppercase;
