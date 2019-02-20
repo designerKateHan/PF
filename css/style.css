@@ -71,7 +71,7 @@ h1 {
     text-align: center;
 }
 h1 span {
-    font-weight: 800;
+    font-weight: 700;
 }
 :root {
     --mainColor: #eb2a2e;
@@ -156,7 +156,7 @@ h1 a:hover {
     z-index: 1;
 }
 .frame h2 {
-  font-weight: 800;
+  font-weight: 700;
   font-size: 1.7em;
   text-transform: uppercase;
   opacity: 0;
