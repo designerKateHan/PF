@@ -56,15 +56,16 @@ header {
     width: 50%;
     height: 50%;
 }
-.cook-gif {
+.landing-gif {
     width: 100%;
     height: auto;
     background-color: #EF2222;
 }
 .cook-gif img {
-    width: 50%;
+    width: 60%;
     height: auto;
     margin: 0 auto;
+    align-items: center;
 }
 
 /* Youtube */
