@@ -61,12 +61,6 @@ header {
     height: auto;
     background-color: #EF2222;
 }
-.cook-gif img {
-    width: 60%;
-    height: auto;
-    margin: 0 auto;
-    align-items: center;
-}
 
 /* Youtube */
 .embed-youtube {
