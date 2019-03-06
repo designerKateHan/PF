@@ -51,7 +51,6 @@ html, body {
     align-content: center;
     justify-content: center;
     text-align: left;
-
 }
 .second-box h3 {
     color: #eb2a2e;
@@ -114,15 +113,6 @@ footer {
 /* End icons  */
 
 
-
-/* ============ Tablet size 1230 ============ */
-
-@media only screen and (max-width: 1230px) {
-    /* Main Landing */
-    
-
-    
-}
 
 /* ============ Mobile size ============ */
 
@@ -189,7 +179,7 @@ footer {
         padding-right: 0;
     }
     .second-box {
-        width: 60%;
+        width: 90%;
         height: auto;
         margin: 0 auto;
         border: none;
