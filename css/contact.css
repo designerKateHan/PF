@@ -199,16 +199,14 @@ footer {
         align-content: center;
         justify-content: center;
         text-align: left;
-
     }
     .second-box h3 {
         color: #eb2a2e;
     }
-
     .second-box h3 span {
         font-weight: 300;
         color: black;
         padding-left: 10px;
     }
-      
+
 }
