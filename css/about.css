@@ -9,8 +9,9 @@
 }
 .h2-div {
   display: block;
+  height: 200px;
   padding: 70px;
-  padding-bottom: 100px;
+  padding-bottom: 70px;
 }
 .detail-about {
   width: 100%;
@@ -30,7 +31,7 @@
   padding-top: 10px;
 }
 .p-section {
-  width: 40%;
+  width: 50%;
   height: auto;
 }
 .p-section p {
@@ -161,5 +162,4 @@ footer {
     color: #fff;
     background-color: #eb2a2e;
   }
-
 }
