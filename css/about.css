@@ -85,6 +85,7 @@ size {
 .resume a:hover {
   background-size: 4px 50px;
   color: #fff;
+  font-weight: 700;
 }
 
 
