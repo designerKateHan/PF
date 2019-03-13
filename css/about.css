@@ -70,7 +70,7 @@ size {
 .resume a {
   font-family: 'Barlow', sans-serif;
   text-decoration: none;
-  color: #333;
+  font-size: 2rem;
   background:
      linear-gradient(
        to bottom, var(--mainColor) 0%,
