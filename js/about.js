@@ -2,7 +2,7 @@
 
 new TypeIt('#element', {speed: 100})
 
-  .type('<em>Hello.</em> I am <em>Kuiae Han.</em>')
+  .type('<em>Hello.</em> I am <em>Kate Han.</em>')
   .pause(500)
   .break()
   .options({speed: 60})
