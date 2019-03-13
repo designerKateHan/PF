@@ -69,8 +69,8 @@ size {
 }
 .resume a {
   font-family: 'Barlow', sans-serif;
+  font-size: 1.6rem;
   text-decoration: none;
-  font-size: 2rem;
   background:
      linear-gradient(
        to bottom, var(--mainColor) 0%,
@@ -87,7 +87,6 @@ size {
   color: #fff;
   font-weight: 700;
 }
-
 
 footer {
   left:0px;
