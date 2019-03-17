@@ -8,14 +8,17 @@ body {
     line-height: 1.4em;
     color: #333;
 }
-.container, .work-section {
+.container{
+    width: 100%;
+}
+.work-section {
     width: 80%;
     height: auto;
     margin: 0 auto;
 }
 /* Header - nav */
 header {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     height: 80px;
     margin-top: 20px;
@@ -98,10 +101,11 @@ h1 a:hover {
 /*======= Grid =======*/
 
 .grid {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 .grid-item {
     width: 33.3%;
@@ -129,6 +133,7 @@ h1 a:hover {
   box-sizing: border-box;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
+
 }
 .frame img {
     backface-visibility: hidden;
@@ -186,7 +191,7 @@ h1 a:hover {
 }  
 
 /* Frame - 2 */
-/* Hover effect */
+/* Hover effect BG color */
 .frame-2:after {
     content: '';
     background-color: rgba(235, 42, 46, 0.7);
