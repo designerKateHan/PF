@@ -1,6 +1,11 @@
 @import "reset.css";
 @import "style.css";
 
+.container, .work-section {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
 header {
     padding-bottom: 70px;
 }
