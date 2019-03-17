@@ -96,6 +96,9 @@ header {
         height: auto;
         margin: 0 auto;
     }
+    header {
+        width: 90%;
+    }
     /*======= main =======*/
     
     .main-inner-wrapper {
