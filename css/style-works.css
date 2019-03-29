@@ -78,8 +78,18 @@ header {
 .sub-title span{
     font-weight: 300;
 }
-
-
+.with-p {
+    display: block;
+    font-weight: 700;
+    padding: 70px 0px 0px 0px;
+}
+.p-explain{
+    display: block;
+    width: 60%;
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 10px 0px 20px 0px;
+}
 
 /* Youtube */
 .embed-youtube {
