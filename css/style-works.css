@@ -109,6 +109,13 @@ header {
     padding: 10px 0px 20px 0px;
 }
 
+/* Mp4 */
+video {
+    width: 100%;
+    height: auto;
+    
+}
+
 /* Youtube */
 .embed-youtube {
     position: relative;
@@ -165,4 +172,3 @@ header {
         width: 100%;
     }
 }
-
