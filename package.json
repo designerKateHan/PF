@@ -9,7 +9,7 @@
   "author": "Kuiae Han",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.4.0"
+    "lite-server": "^2.6.1"
   },
   "dependencies": {},
   "description": ""
